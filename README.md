@@ -38,3 +38,18 @@
   4. Type **git clone https://github.com/moiz-bits/DBMS_Assignment.git** and hit Enter.
   5. Congratulations !! you have successfully setup the git repo on your local.
 
+## Setting Up your own branch
+  1. Go to your folder where you have cloned your repository
+  2. create your own branch with the following command **git checkout -b <your table Name>**
+  3. Write the following command **git pull origin main**
+  4. You will see a folder named as **database**. go inside it.
+  5. Run **sqlite3** in that folder.
+  6. Now do use the following command to open school management DB.
+      - ***.open schoolManagement.db***
+  7. Now verify you are in right database by executing **.databases**
+  8. Now execute this command **.read schoolManagement.sql**
+  9. Also, try **.tables** you will see a table named as **academic_year**
+  10. Also, try and do **select * from Academic_Year;**
+  
+## Creating your table and Inserting Data
+  
