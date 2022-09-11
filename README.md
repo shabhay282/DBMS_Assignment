@@ -29,35 +29,12 @@
   12. Now, again go to your start menu and search for **cmd**. Open Comand Prompt.
   13. Type **sqlite3** and hit Enter.
   14. You will find yourself into sqlite console.
-  15. Congratulations !! SQLite is installed on ypur system.
+  15. Congratulations !! SQLite is installed on your system.
 
-
-mkdir git_test
-
-An example of the PowerShell output.
-
-Example of creating a test directory in Windows PowerShell.
-Change your location to the newly created directory:
-
-cd git_test
-
-Note: If you already have a GitHub repository, use the name of that project instead of git_test.
-
-Configure GitHub Credentials
-Configure your local Git installation to use your GitHub credentials by entering the following:
-
-git config --global user.name "github_username"
-
-git config --global user.email "email_address"
-
-Note: Replace github_username and email_address with your GitHub credentials.
-
-Clone a GitHub Repository
-Go to your repository on GitHub. In the top right above the list of files, open the Clone or download drop-down menu. Copy the URL for cloning over HTTPS.
-
-Cloning a GitHub repository over HTTPS
-Switch to your PowerShell window, and enter the following:
-
-git clone repository_url
-
+## Setting Up Repository on your local
+  1. Go to your start menu and search for **Git Bash** and press Enter (or click the application icon).
+  2. Type **mkdir dbms_assignment** and hit Enter.
+  3. Type **cd dbms_assignment** and hit Enter.
+  4. Type **git clone https://github.com/moiz-bits/DBMS_Assignment.git** and hit Enter.
+  5. Congratulations !! you have successfully setup the git repo on your local.
 
