@@ -50,6 +50,7 @@
   8. Now execute this command **.read schoolManagement.sql**
   9. Also, try **.tables** you will see a table named as **academic_year**
   10. Also, try and do **select * from Academic_Year;**
-  
-## Creating your table and Inserting Data
+ ### Note - In any situation if you come out of sqlite, Please use below commands to connect to DB and then work further. Run below commands in sqlite.
+    .open schoolManagement.db
+    .read schoolManagement.sql
   
